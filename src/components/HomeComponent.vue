@@ -1,15 +1,13 @@
 <template>
-    <div>
-        <h1>Welcome to the Home Component</h1>
-    </div>
+  <h1 class="titulo-infierno">Bienvenido al infierno</h1>
 </template>
 
 <script>
-export default {
-name: 'HomeComponent',
-}
+export default {};
 </script>
 
 <style>
-
+.titulo-infierno {
+  color: red;
+}
 </style>
